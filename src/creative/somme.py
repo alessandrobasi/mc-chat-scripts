@@ -8,7 +8,7 @@ continua = True
 
 
 class FearGamesChatSum:
-    def __init__(self, game,MAX_TIMEOUT=3):
+    def __init__(self, game,MAX_TIMEOUT=0):
 
         self.MAX_TIMEOUT = MAX_TIMEOUT
         self.__timeout = self.MAX_TIMEOUT
